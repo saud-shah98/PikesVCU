@@ -1,8 +1,12 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
+import pic01 from '../images/lilly.png'
+import pic02 from '../images/bg1.jpg'
 import pic03 from '../images/pic03.jpg'
+import pic05 from '../images/pic05.png'
+import pic06 from '../images/pic06.png'
+import pic07 from '../images/pic07.png'
+import card from '../images/card.jpg'
 
 class Main extends React.Component {
   render() {
@@ -28,7 +32,10 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Intro</h2>
+          <h2 className="major">Rush PIKE</h2>
+          <span className="image main">
+            <img src={card} alt="" />
+          </span>
           <span className="image main">
             <img src={pic01} alt="" />
           </span>
@@ -62,7 +69,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
+          <h2 className="major">The Fireman's Challenge 2021</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
@@ -91,19 +98,18 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">About</h2>
+          <h2 className="major">Meet the Executive Board</h2>
           <span className="image main">
-            <img src={pic03} alt="" />
+            <img src={pic05} alt="" height="200"/>
           </span>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
-          </p>
+          <span className="image main">
+            <img src={pic06} alt="" height="200"/>
+          </span>
+          <span className="image main">
+            <img src={pic07} alt="" width="100" height="400"/>
+          </span>
+          
+  
           {close}
         </article>
 
