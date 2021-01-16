@@ -5,6 +5,7 @@
   "author": "Hunter Chang",
   "homepage": "https://www.pikesvcu.com",
   "dependencies": {
+    "express": "^4.17.1",
     "gatsby": "^2.19.5",
     "gatsby-plugin-manifest": "^2.2.38",
     "gatsby-plugin-react-helmet": "^3.1.21",
@@ -20,6 +21,7 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
+    "run": "serve -s build",
     "develop": "gatsby develop",
     "format": "prettier --write '**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
