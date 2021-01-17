@@ -3,7 +3,6 @@
   "description": "Gatsby Starter - Dimension V2",
   "version": "1.0.0",
   "author": "Hunter Chang",
-  "homepage": "https://www.pikesvcu.com",
   "dependencies": {
     "gatsby": "^2.19.5",
     "gatsby-plugin-manifest": "^2.2.38",
@@ -20,6 +19,8 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
+    "heroku-postbuild": "gatsby build",
+    "start": "gatsby serve",
     "develop": "gatsby develop",
     "format": "prettier --write '**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
